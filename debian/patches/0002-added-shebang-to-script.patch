@@ -1,0 +1,18 @@
+From: Romain Janvier <romain.janvier@hotmail.fr>
+Date: Sat, 12 Jan 2013 16:53:19 +0100
+Subject: added shebang to script
+
+---
+ img2dcm.py |    2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/img2dcm.py b/img2dcm.py
+index 5ab1272..8a56a87 100644
+--- a/img2dcm.py
++++ b/img2dcm.py
+@@ -1,3 +1,5 @@
++#!/usr/bin/env python
++
+ #--------------------------------------------------------------------------
+ # Software:     img2dcm
+ # Copyright:    (C) 2001  Centro de Pesquisas Renato Archer
