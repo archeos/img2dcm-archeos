@@ -1,5 +1,9 @@
-img2dcm (0-+hghge73bc3fa7839-0archeos1) unstable; urgency=low
+img2dcm (0+hge73bc3fa7839-0archeos1) UNRELEASED; urgency=low
 
-  * initial package from official repo 
+  * Closes: ArcheOS #48
+  * Initial package from official repo 
+  * Added setup.py
+  * Changed script name
+  * Added shebang to img2dcm.py
 
  -- Romain Janvier <romain.janvier@hotmail.fr>  Thu, 10 Jan 2013 17:37:22 +0100

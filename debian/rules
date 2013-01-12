@@ -5,6 +5,10 @@
 
 %:
 	dh $@ --with python2
+clean:
+	dh_testdir
+	dh_clean
+	dh_auto_clean
 
 override_dh_auto_install:
 	python setup.py install --root=debian/img2dcm --install-layout=deb --install-lib=/usr/share/img2dcm --install-scripts=/usr/share/img2dcm
