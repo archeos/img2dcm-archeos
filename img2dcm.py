@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 #--------------------------------------------------------------------------
 # Software:     img2dcm
 # Copyright:    (C) 2001  Centro de Pesquisas Renato Archer
