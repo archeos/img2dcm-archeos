@@ -1,0 +1,15 @@
+Source: img2dcm
+Maintainer: Romain Janvier <romain.janvier@hotmail.fr>
+Section: python
+Priority: optional
+Build-Depends: python, debhelper (>= 7.4.3)
+# 2.7 is required because python 2.7 is mandatory for python-gdcm
+# and python-vtkgdcm
+X-Python-Version: >= 2.7
+Standards-Version: 3.9.1
+
+Package: img2dcm
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-vtk (>= 5.8.0), python-gdcm (>= 2.2.0), python-vtkgdcm (>= 2.2.0)
+Description:Convert bmp, tif, png, jpg, vti to dcm.
+ A command line tool to convert bitmaps to DICOM format.
