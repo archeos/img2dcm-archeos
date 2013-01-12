@@ -1,0 +1,83 @@
+From: Romain Janvier <romain.janvier@hotmail.fr>
+Date: Sat, 12 Jan 2013 16:56:03 +0100
+Subject: patches (distutils and shebang
+
+---
+ .../0001-added-distutils-stuff-setup.py.patch      |   32 ++++++++++++++++++++
+ debian/patches/0002-added-shebang-to-script.patch  |   18 +++++++++++
+ debian/patches/series                              |    2 ++
+ 3 files changed, 52 insertions(+)
+ create mode 100644 debian/patches/0001-added-distutils-stuff-setup.py.patch
+ create mode 100644 debian/patches/0002-added-shebang-to-script.patch
+ create mode 100644 debian/patches/series
+
+diff --git a/debian/patches/0001-added-distutils-stuff-setup.py.patch b/debian/patches/0001-added-distutils-stuff-setup.py.patch
+new file mode 100644
+index 0000000..da77187
+--- /dev/null
++++ b/debian/patches/0001-added-distutils-stuff-setup.py.patch
+@@ -0,0 +1,32 @@
++From: Romain Janvier <romain.janvier@hotmail.fr>
++Date: Sat, 12 Jan 2013 16:50:05 +0100
++Subject: added distutils stuff (setup.py)
++
++---
++ setup.py |   17 +++++++++++++++++
++ 1 file changed, 17 insertions(+)
++ create mode 100644 setup.py
++
++diff --git a/setup.py b/setup.py
++new file mode 100644
++index 0000000..068536b
++--- /dev/null
+++++ b/setup.py
++@@ -0,0 +1,17 @@
+++#!/usr/bin/env python
+++
+++from distutils.core import setup
+++
+++setup(name='img2dcm',
+++	version='0.1.0',
+++	description='Convert bmp, tif, png, jpg, vti to dcm',
+++	author='Thiago Franco de Moraes',
+++	author_email='invesalius@cti.gov.br',
+++	url='https://bitbucket.org/tfmoraes/img2dcm',
+++	maintainer="Romain Janvier",
+++	maintainer_email="romain.janvier@hotmail.fr",
+++	py_modules=['ivDicom'],
+++	scripts=['img2dcm'],
+++	licence='GPL2',
+++	requires=['vtk (>=0.4.67)', 'gdcm (>=2.2.0)', 'vtkgdcm (>=2.2.0)'],
+++     )
+diff --git a/debian/patches/0002-added-shebang-to-script.patch b/debian/patches/0002-added-shebang-to-script.patch
+new file mode 100644
+index 0000000..3a553f8
+--- /dev/null
++++ b/debian/patches/0002-added-shebang-to-script.patch
+@@ -0,0 +1,18 @@
++From: Romain Janvier <romain.janvier@hotmail.fr>
++Date: Sat, 12 Jan 2013 16:53:19 +0100
++Subject: added shebang to script
++
++---
++ img2dcm.py |    2 ++
++ 1 file changed, 2 insertions(+)
++
++diff --git a/img2dcm.py b/img2dcm.py
++index 5ab1272..8a56a87 100644
++--- a/img2dcm.py
+++++ b/img2dcm.py
++@@ -1,3 +1,5 @@
+++#!/usr/bin/env python
+++
++ #--------------------------------------------------------------------------
++ # Software:     img2dcm
++ # Copyright:    (C) 2001  Centro de Pesquisas Renato Archer
+diff --git a/debian/patches/series b/debian/patches/series
+new file mode 100644
+index 0000000..17656c5
+--- /dev/null
++++ b/debian/patches/series
+@@ -0,0 +1,2 @@
++0001-added-distutils-stuff-setup.py.patch
++0002-added-shebang-to-script.patch
