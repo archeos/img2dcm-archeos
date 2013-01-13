@@ -1,8 +1,10 @@
-img2dcm (0+hge73bc3fa7839-0archeos2) UNRELEASED; urgency=low
+img2dcm (0+hge73bc3fa7839-0archeos2) theodoric; urgency=low
 
-  * first version/release date bumped
+  * Minor tweaks to debian files
+  * Fixed typo in setup.py
+  * Tested with pbuilder
 
- -- Romain Janvier <romain.janvier@hotmail.fr>  Sun, 13 Jan 2013 17:37:39 +0100
+ -- Romain Janvier <romain@Archeos>  Sun, 13 Jan 2013 18:56:06 +0100
 
 img2dcm (0+hge73bc3fa7839-0archeos1) unstable; urgency=low
 
