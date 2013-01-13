@@ -1,0 +1,10 @@
+--- a/setup.py
++++ b/setup.py
+@@ -12,6 +12,6 @@ setup(name='img2dcm',
+ 	maintainer_email="romain.janvier@hotmail.fr",
+ 	py_modules=['ivDicom'],
+ 	scripts=['img2dcm'],
+-	licence='GPL2',
++	license='GPL2',
+ 	requires=['vtk (>=0.4.67)', 'gdcm (>=2.2.0)', 'vtkgdcm (>=2.2.0)'],
+      )
