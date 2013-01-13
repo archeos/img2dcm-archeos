@@ -12,4 +12,4 @@ img2dcm (0+hge73bc3fa7839-0archeos1) unstable; urgency=low
   * Changed script name
   * Added shebang to img2dcm.py
 
- -- Romain Janvier <romain@Archeos>  Sat, 12 Jan 2013 18:55:59 +0100
+ -- Romain Janvier <romain.janvier@hotmail.fr>  Sat, 12 Jan 2013 18:55:59 +0100

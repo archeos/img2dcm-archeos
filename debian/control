@@ -6,7 +6,7 @@ Build-Depends: python, debhelper (>= 7.4.3)
 # 2.7 is required because python 2.7 is mandatory for python-gdcm
 # and python-vtkgdcm
 X-Python-Version: >= 2.7
-Standards-Version: 3.9.1
+Standards-Version: 3.9.4
 
 Package: img2dcm
 Architecture: all
