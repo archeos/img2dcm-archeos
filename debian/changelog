@@ -1,3 +1,9 @@
+img2dcm (0+hge73bc3fa7839-0archeos2) UNRELEASED; urgency=low
+
+  * first version/release date bumped
+
+ -- Romain Janvier <romain.janvier@hotmail.fr>  Sun, 13 Jan 2013 17:37:39 +0100
+
 img2dcm (0+hge73bc3fa7839-0archeos1) unstable; urgency=low
 
   * Closes: ArcheOS #48

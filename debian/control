@@ -1,6 +1,6 @@
 Source: img2dcm
 Maintainer: Romain Janvier <romain.janvier@hotmail.fr>
-Section: python
+Section: graphics
 Priority: optional
 Build-Depends: python, debhelper (>= 7.4.3)
 # 2.7 is required because python 2.7 is mandatory for python-gdcm
