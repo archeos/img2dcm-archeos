@@ -7,6 +7,9 @@ Build-Depends: python, debhelper (>= 7.4.3)
 # and python-vtkgdcm
 X-Python-Version: >= 2.7
 Standards-Version: 3.9.4
+Homepage: http://www.archeos.eu
+Vcs-Browser: https://github.com/archeos/img2dcm-archeos
+Vcs-Git: git://github.com/archeos/img2dcm-archeos.git
 
 Package: img2dcm
 Architecture: all

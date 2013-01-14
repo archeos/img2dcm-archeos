@@ -4,7 +4,7 @@ img2dcm (0+hge73bc3fa7839-0archeos2) theodoric; urgency=low
   * Fixed typo in setup.py
   * Tested with pbuilder
 
- -- Romain Janvier <romain@Archeos>  Sun, 13 Jan 2013 18:56:06 +0100
+ -- Romain Janvier <romain.janvier@hotmail.fr>  Sun, 13 Jan 2013 18:56:06 +0100
 
 img2dcm (0+hge73bc3fa7839-0archeos1) unstable; urgency=low
 
